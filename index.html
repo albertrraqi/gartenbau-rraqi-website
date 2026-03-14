@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gartenbau und Gartengestaltung Rraqi | Ihr Gärtner in Baden, Aargau</title>
+<meta name="description" content="Gartenbau Rraqi – Ihr erfahrener Gärtner in Baden, Aargau. Gartengestaltung, Gartenpflege, Natursteinmauern, Fassaden & Isolationen. Jetzt kostenlose Beratung anfragen!">
+<meta name="keywords" content="Gärtner Baden, Gartenbau Aargau, Gartengestaltung Baden, Gartenpflege Aargau, Natursteinmauern, Fassaden Isolationen, Landschaftsgärtner Baden">
+<meta name="author" content="Gartenbau und Gartengestaltung Rraqi">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://gartenbau-rraqi.ch/">
+<meta property="og:title" content="Gartenbau und Gartengestaltung Rraqi | Baden, Aargau">
+<meta property="og:description" content="Professioneller Gartenbau und Gartengestaltung in Baden und Umgebung. Kostenlose Beratung!">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gartenbau-rraqi.ch/">
+<meta property="og:locale" content="de_CH">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+<style>
+:root{--green:#1a7a4c;--green-dark:#145e3a;--green-light:#e8f5e9;--gold:#c8a951;--text:#2d2d2d;--gray:#f5f5f5;--white:#fff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--text);line-height:1.7}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;height:auto}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+/* NAV */
+.nav{position:fixed;top:0;width:100%;background:var(--white);box-shadow:0 2px 15px rgba(0,0,0,.08);z-index:1000;padding:12px 0}
+.nav .container{display:flex;justify-content:space-between;align-items:center}
+.nav-logo{font-size:1.5rem;font-weight:800;color:var(--green)}
+.nav-logo span{color:var(--gold)}
+.nav-links{display:flex;gap:25px;list-style:none;align-items:center}
+.nav-links a{font-weight:500;transition:.3s;font-size:.95rem}
+.nav-links a:hover{color:var(--green)}
+.nav-tel{background:var(--green);color:var(--white)!important;padding:10px 20px;border-radius:25px;font-weight:600;font-size:.9rem}
+.nav-tel:hover{background:var(--green-dark)}
+.hamburger{display:none;flex-direction:column;cursor:pointer;gap:5px}
+.hamburger span{width:25px;height:3px;background:var(--text);border-radius:3px;transition:.3s}
+/* HERO */
+.hero{padding:140px 0 80px;background:linear-gradient(135deg,var(--green-light) 0%,#c8e6c9 100%);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:rgba(26,122,76,.08);border-radius:50%}
+.hero .container{display:flex;align-items:center;gap:60px}
+.hero-text{flex:1}
+.hero-badge{display:inline-block;background:var(--green);color:var(--white);padding:6px 16px;border-radius:20px;font-size:.85rem;font-weight:600;margin-bottom:20px}
+.hero h1{font-size:2.8rem;font-weight:800;line-height:1.2;margin-bottom:20px;color:var(--green-dark)}
+.hero h1 span{color:var(--gold)}
+.hero p{font-size:1.15rem;color:#555;margin-bottom:30px;max-width:520px}
+.hero-btns{display:flex;gap:15px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 30px;border-radius:30px;font-weight:600;font-size:1rem;transition:.3s;cursor:pointer;border:none}
+.btn-primary{background:var(--green);color:var(--white)}
+.btn-primary:hover{background:var(--green-dark);transform:translateY(-2px)}
+.btn-secondary{background:transparent;color:var(--green);border:2px solid var(--green)}
+.btn-secondary:hover{background:var(--green);color:var(--white)}
+.hero-img{flex:1;text-align:center}
+.hero-img-placeholder{width:100%;max-width:480px;height:350px;background:linear-gradient(135deg,var(--green),var(--green-dark));border-radius:20px;display:flex;align-items:center;justify-content:center;color:var(--white);font-size:5rem}
+/* STATS */
+.stats{padding:60px 0;background:var(--green-dark);color:var(--white)}
+.stats .container{display:flex;justify-content:space-around;flex-wrap:wrap;gap:30px}
+.stat{text-align:center}
+.stat-num{font-size:2.5rem;font-weight:800}
+.stat-label{font-size:.95rem;opacity:.85;margin-top:5px}
+/* SERVICES */
+.services{padding:80px 0;background:var(--white)}
+.section-title{text-align:center;margin-bottom:50px}
+.section-title h2{font-size:2.2rem;font-weight:800;color:var(--green-dark);margin-bottom:10px}
+.section-title p{color:#777;font-size:1.05rem}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.service-card{background:var(--gray);padding:35px 30px;border-radius:15px;transition:.3s;border:2px solid transparent}
+.service-card:hover{border-color:var(--green);transform:translateY(-5px);box-shadow:0 10px 30px rgba(26,122,76,.1)}
+.service-icon{width:60px;height:60px;background:var(--green-light);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.8rem;margin-bottom:20px}
+.service-card h3{font-size:1.3rem;margin-bottom:12px;color:var(--green-dark)}
+.service-card p{color:#666;font-size:.95rem}
+.service-card a{display:inline-block;margin-top:15px;color:var(--green);font-weight:600;font-size:.9rem}
+/* REGIONS */
+.regions{padding:80px 0;background:var(--green-light)}
+.regions-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin-top:30px}
+.region-link{display:block;background:var(--white);padding:18px 24px;border-radius:10px;text-align:center;font-weight:600;color:var(--green-dark);transition:.3s;border:2px solid transparent}
+.region-link:hover{border-color:var(--green);background:var(--green);color:var(--white)}
+/* REVIEWS */
+.reviews{padding:80px 0;background:var(--white)}
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px}
+.review-card{background:var(--gray);padding:30px;border-radius:15px;border-left:4px solid var(--green)}
+.review-stars{color:var(--gold);font-size:1.2rem;margin-bottom:12px}
+.review-card p{font-style:italic;color:#555;margin-bottom:15px}
+.review-author{font-weight:700;color:var(--green-dark)}
+.review-source{font-size:.85rem;color:#999}
+/* CTA */
+.cta{padding:80px 0;background:linear-gradient(135deg,var(--green),var(--green-dark));color:var(--white);text-align:center}
+.cta h2{font-size:2.2rem;font-weight:800;margin-bottom:15px}
+.cta p{font-size:1.1rem;opacity:.9;margin-bottom:30px;max-width:600px;margin-left:auto;margin-right:auto}
+.btn-white{background:var(--white);color:var(--green);padding:14px 35px;border-radius:30px;font-weight:700;font-size:1rem;transition:.3s}
+.btn-white:hover{transform:translateY(-2px);box-shadow:0 5px 20px rgba(0,0,0,.2)}
+/* CONTACT */
+.contact{padding:80px 0;background:var(--gray)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.contact-info h3{font-size:1.5rem;color:var(--green-dark);margin-bottom:20px}
+.contact-item{display:flex;align-items:flex-start;gap:15px;margin-bottom:20px}
+.contact-item-icon{width:45px;height:45px;background:var(--green-light);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.contact-item strong{display:block;margin-bottom:3px;color:var(--green-dark)}
+.contact-item span{color:#666;font-size:.95rem}
+.contact-form{background:var(--white);padding:35px;border-radius:15px;box-shadow:0 5px 25px rgba(0,0,0,.05)}
+.contact-form h3{font-size:1.3rem;color:var(--green-dark);margin-bottom:20px}
+.form-group{margin-bottom:18px}
+.form-group label{display:block;font-weight:600;margin-bottom:6px;font-size:.9rem}
+.form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 16px;border:2px solid #e0e0e0;border-radius:10px;font-size:1rem;font-family:inherit;transition:.3s}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{border-color:var(--green);outline:none}
+.form-group textarea{resize:vertical;min-height:100px}
+.form-submit{background:var(--green);color:var(--white);padding:14px 40px;border:none;border-radius:30px;font-weight:700;font-size:1rem;cursor:pointer;transition:.3s;width:100%}
+.form-submit:hover{background:var(--green-dark)}
+/* FOOTER */
+.footer{background:#1a1a1a;color:var(--white);padding:60px 0 30px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.footer h4{font-size:1.1rem;margin-bottom:18px;color:var(--green)}
+.footer p{color:#aaa;font-size:.9rem;line-height:1.8}
+.footer-links{list-style:none}
+.footer-links li{margin-bottom:10px}
+.footer-links a{color:#aaa;font-size:.9rem;transition:.3s}
+.footer-links a:hover{color:var(--green)}
+.footer-bottom{border-top:1px solid #333;padding-top:25px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px}
+.footer-bottom p{color:#888;font-size:.85rem}
+.footer-bottom a{color:var(--green)}
+/* SCHEMA - hidden */
+.schema-hidden{display:none}
+/* RESPONSIVE */
+@media(max-width:992px){
+.hero .container{flex-direction:column;text-align:center}
+.hero p{margin-left:auto;margin-right:auto}
+.hero-btns{justify-content:center}
+.hero-img{display:none}
+.contact-grid{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:768px){
+.nav-links{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--white);flex-direction:column;padding:20px;box-shadow:0 5px 15px rgba(0,0,0,.1)}
+.nav-links.active{display:flex}
+.hamburger{display:flex}
+.hero h1{font-size:2rem}
+.stats .container{flex-direction:column;gap:20px}
+.footer-grid{grid-template-columns:1fr}
+.services-grid{grid-template-columns:1fr}
+.regions-grid{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+<!-- NAVIGATION -->
+<nav class="nav" role="navigation" aria-label="Hauptnavigation">
+<div class="container">
+<a href="/" class="nav-logo">🌿 Rraqi <span>Gartenbau</span></a>
+<ul class="nav-links" id="navLinks">
+<li><a href="/">Startseite</a></li>
+<li><a href="/leistungen.html">Leistungen</a></li>
+<li><a href="/projekte.html">Projekte</a></li>
+<li><a href="/bewertungen.html">Bewertungen</a></li>
+<li><a href="/regionen.html">Regionen</a></li>
+<li><a href="/kontakt.html">Kontakt</a></li>
+<li><a href="tel:+41767055009" class="nav-tel">📞 +41 76 705 50 09</a></li>
+</ul>
+<div class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('active')">
+<span></span><span></span><span></span>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<div class="container">
+<div class="hero-text">
+<span class="hero-badge">🌿 Ihr Experte in Baden &amp; Aargau</span>
+<h1>Professioneller <span>Gärtner</span> für Gartenbau und Gartengestaltung</h1>
+<p>Gartenbau und Gartengestaltung Rraqi verwandelt Ihren Aussenbereich in eine grüne Oase. Gartengestaltung, Gartenpflege, Natursteinmauern sowie Fassaden und Isolationen – alles aus einer Hand in Baden und der ganzen Region Aargau.</p>
+<div class="hero-btns">
+<a href="/kontakt.html" class="btn btn-primary">Kostenlose Beratung anfragen</a>
+<a href="/leistungen.html" class="btn btn-secondary">Unsere Leistungen</a>
+</div>
+</div>
+<div class="hero-img">
+<div class="hero-img-placeholder">🏡</div>
+</div>
+</div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+<div class="container">
+<div class="stat"><div class="stat-num">5+</div><div class="stat-label">Jahre Erfahrung</div></div>
+<div class="stat"><div class="stat-num">200+</div><div class="stat-label">Zufriedene Kunden</div></div>
+<div class="stat"><div class="stat-num">5.0 ⭐</div><div class="stat-label">Google Bewertung</div></div>
+<div class="stat"><div class="stat-num">14+</div><div class="stat-label">Regionen abgedeckt</div></div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="leistungen">
+<div class="container">
+<div class="section-title">
+<h2>Unsere Leistungen</h2>
+<p>Professionelle Gartenarbeit von der Planung bis zur Ausführung</p>
+</div>
+<div class="services-grid">
+<div class="service-card">
+<div class="service-icon">🌳</div>
+<h3>Gartengestaltung &amp; Gartenbau</h3>
+<p>Komplette Neugestaltung oder Umänderung Ihres Gartens. Wir bringen Struktur, Farbe und Leben in Ihre grüne Oase. Gartenplanung, Bepflanzung und kreative Lösungen.</p>
+<a href="/leistungen.html#gartengestaltung">Mehr erfahren →</a>
+</div>
+<div class="service-card">
+<div class="service-icon">🌿</div>
+<h3>Gartenpflege &amp; Gartenunterhalt</h3>
+<p>Regelmässige Rasenpflege, Heckenschnitt, Baumschnitt und saisonale Bepflanzung. Ihr Garten bleibt das ganze Jahr über gepflegt und schön.</p>
+<a href="/leistungen.html#gartenpflege">Mehr erfahren →</a>
+</div>
+<div class="service-card">
+<div class="service-icon">🧱</div>
+<h3>Natursteinmauern &amp; Pflasterarbeiten</h3>
+<p>Fachmännische Natursteinmauern, Treppen, Wege und Terrassen, die sich harmonisch in die Umgebung einfügen und Generationen halten.</p>
+<a href="/leistungen.html#naturstein">Mehr erfahren →</a>
+</div>
+<div class="service-card">
+<div class="service-icon">🏠</div>
+<h3>Fassaden &amp; Isolationen</h3>
+<p>Energetische Optimierung und optische Aufwertung Ihres Gebäudes durch professionelle Isolations- und Fassadenarbeiten.</p>
+<a href="/leistungen.html#fassaden">Mehr erfahren →</a>
+</div>
+<div class="service-card">
+<div class="service-icon">🚜</div>
+<h3>Erdarbeiten &amp; Aushub</h3>
+<p>Erdarbeiten mit modernen Maschinen. Aushub, Planierungen, Fundamentarbeiten sowie Bau und Instandsetzung von Kanalisationssystemen.</p>
+<a href="/leistungen.html#erdarbeiten">Mehr erfahren →</a>
+</div>
+<div class="service-card">
+<div class="service-icon">🔧</div>
+<h3>Renovationen &amp; Reparaturen</h3>
+<p>Arbeiten an Aussenfassaden, Renovationen, Isolierungen und Reparaturen. Wir kümmern uns um Ihr Zuhause von aussen.</p>
+<a href="/leistungen.html#renovationen">Mehr erfahren →</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- REGIONS -->
+<section class="regions" id="regionen">
+<div class="container">
+<div class="section-title">
+<h2>Unsere Regionen</h2>
+<p>Gartenbau Rraqi ist in der ganzen Deutschschweiz für Sie tätig</p>
+</div>
+<div class="regions-grid">
+<a href="/regionen/baden.html" class="region-link">🌿 Gärtner Baden</a>
+<a href="/regionen/zuerich.html" class="region-link">🌿 Gärtner Zürich</a>
+<a href="/regionen/aargau.html" class="region-link">🌿 Gärtner Aargau</a>
+<a href="/regionen/luzern.html" class="region-link">🌿 Gärtner Luzern</a>
+<a href="/regionen/basel.html" class="region-link">🌿 Gärtner Basel</a>
+<a href="/regionen/bern.html" class="region-link">🌿 Gärtner Bern</a>
+<a href="/regionen/zug.html" class="region-link">🌿 Gärtner Zug</a>
+<a href="/regionen/thurgau.html" class="region-link">🌿 Gärtner Thurgau</a>
+<a href="/regionen/solothurn.html" class="region-link">🌿 Gärtner Solothurn</a>
+<a href="/regionen/schwyz.html" class="region-link">🌿 Gärtner Schwyz</a>
+<a href="/regionen/interlaken.html" class="region-link">🌿 Gärtner Interlaken</a>
+<a href="/regionen/thun.html" class="region-link">🌿 Gärtner Thun</a>
+</div>
+</div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="bewertungen">
+<div class="container">
+<div class="section-title">
+<h2>Kundenbewertungen</h2>
+<p>5.0 von 5 Sternen bei Google – Das sagen unsere Kunden</p>
+</div>
+<div class="reviews-grid">
+<div class="review-card">
+<div class="review-stars">⭐⭐⭐⭐⭐</div>
+<p>Sehr zuverlässige und professionelle Gartenbaufirma. Die Arbeit wurde sauber, schnell und mit viel Sorgfalt erledigt. Ich kann diese Firma nur weiterempfehlen!</p>
+<div class="review-author">Zufriedener Kunde</div>
+<div class="review-source">Google Bewertung</div>
+</div>
+<div class="review-card">
+<div class="review-stars">⭐⭐⭐⭐⭐</div>
+<p>Wir sind sehr zufrieden mit der Arbeit als Natursteinmaurer und Gartenbauer. Die Natursteinmauer sieht wunderschön aus und passt perfekt in unseren Garten.</p>
+<div class="review-author">Zufriedener Kunde</div>
+<div class="review-source">Google Bewertung</div>
+</div>
+<div class="review-card">
+<div class="review-stars">⭐⭐⭐⭐⭐</div>
+<p>Ich bin mit der Arbeit dieser Gartenbaufirma rundum zufrieden. Von der ersten Beratung bis zur finalen Umsetzung lief alles äusserst professionell und zuverlässig.</p>
+<div class="review-author">Zufriedener Kunde</div>
+<div class="review-source">Google Bewertung</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+<div class="container">
+<h2>Bereit für Ihren Traumgarten?</h2>
+<p>Kontaktieren Sie uns noch heute für eine kostenlose und unverbindliche Beratung. Wir freuen uns auf Ihr Projekt!</p>
+<a href="/kontakt.html" class="btn-white">Jetzt Kontakt aufnehmen</a>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="kontakt">
+<div class="container">
+<div class="section-title">
+<h2>Kontakt</h2>
+<p>Wir freuen uns auf Ihre Anfrage</p>
+</div>
+<div class="contact-grid">
+<div class="contact-info">
+<h3>Gartenbau und Gartengestaltung Rraqi</h3>
+<div class="contact-item">
+<div class="contact-item-icon">📍</div>
+<div><strong>Adresse</strong><span>Brisgistrasse 24, 5400 Baden, Schweiz</span></div>
+</div>
+<div class="contact-item">
+<div class="contact-item-icon">📞</div>
+<div><strong>Telefon</strong><span><a href="tel:+41767055009">+41 76 705 50 09</a></span></div>
+</div>
+<div class="contact-item">
+<div class="contact-item-icon">📧</div>
+<div><strong>E-Mail</strong><span><a href="mailto:gartenbau.rraqi@gmail.com">gartenbau.rraqi@gmail.com</a></span></div>
+</div>
+<div class="contact-item">
+<div class="contact-item-icon">🕐</div>
+<div><strong>Öffnungszeiten</strong><span>Mo–Fr: 07:00–18:00<br>Sa: 08:00–16:00<br>So: Geschlossen</span></div>
+</div>
+<div class="contact-item">
+<div class="contact-item-icon">📸</div>
+<div><strong>Instagram</strong><span><a href="https://instagram.com/gartenbau_gartengestaltung" target="_blank" rel="noopener">@gartenbau_gartengestaltung</a></span></div>
+</div>
+</div>
+<div class="contact-form">
+<h3>Kostenlose Beratung anfragen</h3>
+<form action="https://formspree.io/f/placeholder" method="POST">
+<div class="form-group"><label for="name">Name *</label><input type="text" id="name" name="name" required></div>
+<div class="form-group"><label for="tel">Telefon *</label><input type="tel" id="tel" name="phone" required></div>
+<div class="form-group"><label for="email">E-Mail</label><input type="email" id="email" name="email"></div>
+<div class="form-group"><label for="service">Gewünschte Leistung</label>
+<select id="service" name="service">
+<option value="">Bitte wählen...</option>
+<option>Gartengestaltung &amp; Gartenbau</option>
+<option>Gartenpflege &amp; Gartenunterhalt</option>
+<option>Natursteinmauern &amp; Pflasterarbeiten</option>
+<option>Fassaden &amp; Isolationen</option>
+<option>Erdarbeiten &amp; Aushub</option>
+<option>Renovationen &amp; Reparaturen</option>
+<option>Sonstiges</option>
+</select>
+</div>
+<div class="form-group"><label for="msg">Nachricht</label><textarea id="msg" name="message" placeholder="Beschreiben Sie Ihr Projekt..."></textarea></div>
+<button type="submit" class="form-submit">Anfrage absenden</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<h4>🌿 Rraqi Gartenbau</h4>
+<p>Gartenbau und Gartengestaltung Rraqi – Ihr erfahrener Gärtner in Baden, Aargau. Wir sind spezialisiert auf Gartengestaltung, Gartenpflege, Natursteinmauern sowie Fassaden und Isolationen. Qualität, Zuverlässigkeit und Leidenschaft zeichnen uns aus.</p>
+</div>
+<div>
+<h4>Leistungen</h4>
+<ul class="footer-links">
+<li><a href="/leistungen.html#gartengestaltung">Gartengestaltung</a></li>
+<li><a href="/leistungen.html#gartenpflege">Gartenpflege</a></li>
+<li><a href="/leistungen.html#naturstein">Natursteinmauern</a></li>
+<li><a href="/leistungen.html#fassaden">Fassaden &amp; Isolationen</a></li>
+<li><a href="/leistungen.html#erdarbeiten">Erdarbeiten</a></li>
+</ul>
+</div>
+<div>
+<h4>Regionen</h4>
+<ul class="footer-links">
+<li><a href="/regionen/baden.html">Baden</a></li>
+<li><a href="/regionen/zuerich.html">Zürich</a></li>
+<li><a href="/regionen/aargau.html">Aargau</a></li>
+<li><a href="/regionen/luzern.html">Luzern</a></li>
+<li><a href="/regionen/basel.html">Basel</a></li>
+<li><a href="/regionen/bern.html">Bern</a></li>
+</ul>
+</div>
+<div>
+<h4>Kontakt</h4>
+<ul class="footer-links">
+<li>📍 Brisgistrasse 24, 5400 Baden</li>
+<li>📞 <a href="tel:+41767055009">+41 76 705 50 09</a></li>
+<li>📧 <a href="mailto:gartenbau.rraqi@gmail.com">gartenbau.rraqi@gmail.com</a></li>
+<li>📸 <a href="https://instagram.com/gartenbau_gartengestaltung" target="_blank" rel="noopener">Instagram</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2025 Gartenbau und Gartengestaltung Rraqi. Alle Rechte vorbehalten.</p>
+<p><a href="/impressum.html">Impressum</a> | <a href="/datenschutz.html">Datenschutz</a></p>
+</div>
+</div>
+</footer>
+
+<!-- SCHEMA.ORG LOCAL BUSINESS -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LandscapingBusiness",
+  "name": "Gartenbau und Gartengestaltung Rraqi",
+  "image": "",
+  "url": "https://gartenbau-rraqi.ch/",
+  "telephone": "+41767055009",
+  "email": "gartenbau.rraqi@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Brisgistrasse 24",
+    "addressLocality": "Baden",
+    "addressRegion": "AG",
+    "postalCode": "5400",
+    "addressCountry": "CH"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 47.4734,
+    "longitude": 8.3064
+  },
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification","dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens": "07:00","closes": "18:00"},
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Saturday","opens": "08:00","closes": "16:00"}
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "10",
+    "bestRating": "5"
+  },
+  "areaServed": [
+    {"@type": "City", "name": "Baden"},
+    {"@type": "AdministrativeArea", "name": "Aargau"},
+    {"@type": "City", "name": "Zürich"},
+    {"@type": "City", "name": "Luzern"},
+    {"@type": "City", "name": "Basel"},
+    {"@type": "City", "name": "Bern"},
+    {"@type": "City", "name": "Zug"},
+    {"@type": "City", "name": "Thun"},
+    {"@type": "City", "name": "Solothurn"},
+    {"@type": "City", "name": "Schwyz"},
+    {"@type": "City", "name": "Thurgau"},
+    {"@type": "City", "name": "Interlaken"}
+  ],
+  "sameAs": [
+    "https://instagram.com/gartenbau_gartengestaltung"
+  ],
+  "priceRange": "$$",
+  "foundingDate": "2019-07-25",
+  "description": "Gartenbau und Gartengestaltung Rraqi – Ihr erfahrener Gärtner in Baden, Aargau. Gartengestaltung, Gartenpflege, Natursteinmauern, Fassaden und Isolationen."
+}
+</script>
+</body>
+</html>
