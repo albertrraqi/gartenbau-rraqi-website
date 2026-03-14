@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gartenbau-rraqi.ch/sitemap.xml
